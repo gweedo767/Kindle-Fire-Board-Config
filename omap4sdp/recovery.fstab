@@ -1,0 +1,10 @@
+# mount point	fstype    device    	[device2]
+
+/boot       mtd         /dev/block/mmcblk0p7
+/cache      ext4      /dev/block/platform/mmci-omap-hs.1/by-name/cache
+/data       ext4      /dev/block/platform/mmci-omap-hs.1/by-name/userdata
+#/misc       mtd         misc
+/recovery   mtd         /dev/block/mmcblk0p5
+/sdcard     vfat        /dev/block/mmcblk0p12
+/system     ext4      /dev/block/platform/mmci-omap-hs.1/by-name/system
+/sd-ext     ext4        /dev/block/mmcblk0p2
